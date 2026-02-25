@@ -1,0 +1,171 @@
+ body {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+    /* Navbar */
+    .navbar {
+      background: yellow;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(to right, yellowgreen, yellow);
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    .download-btn {
+      padding: 12px 25px;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    .store-btn {
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.store-btn:hover {
+  transform: scale(1.05);
+}
+
+    /* Features */
+    .feature-box {
+      background: #f8f9fa;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      height: 100%;
+    }
+
+    .feature-icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    /* Screenshots */
+    .screenshot img {
+      border-radius: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      width: 90%;
+    }
+
+    /* CTA */
+    .cta {
+      background: #000;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+  .footer {
+      background-color: yellowgreen;
+      color: white;
+      padding: 60px 0 20px;
+    }
+
+    .footer h5 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .store-btn{
+      height: 100px;
+      width: auto;
+    }
+
+  .social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 50%;
+  background: blue;
+  color: black;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: black;
+  color: yellowgreen;
+  transform: translateY(-5px);
+}
+
+    .copyright {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+
+    .feature-box {
+  background:yellowgreen;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+/* FEATURES SECTION TEXT SIZE */
+.feature-box h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.feature-box p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: blanchedalmond;
+}
+
+.feature-icon {
+  font-size: 48px;
+}
+
+/* WHY CHOOSE US BACKGROUND */
+.why-section {
+  background: linear-gradient(135deg, #f8f9fc, #e9eff5);
+  padding: 100px 0;
+}
+
+.why-section h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.why-section h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.why-section p {
+  font-size: 17px;
+  color: #555;
+}
